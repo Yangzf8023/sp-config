@@ -4,11 +4,6 @@ spring:
   cloud:
     config:
       override-none: true
-    inetutils:
-      ignored-interfaces:
-        - VM.*
-      preferred-networks:
-        - 172.242.10
   rabbitmq:
     host: 192.168.64.140
     port: 5672
